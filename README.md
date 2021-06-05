@@ -37,14 +37,17 @@ These notebooks should be invoked using the `jupyter notebook` command.
 
 * Melbourne Hamming Weight - Experiments on the IBMQ Melbourne using states of varying Hamming weight.
 
-* More RB - Some experiments involving randomised benchmarking with large circuit depths.
+* RB Linear - SMC over Randomised Benchmarking Circuits
+
+* More RB - Some more experiments involving randomised benchmarking with large circuit depths.
 
 * Multi Qubit Bias - Hamming weight experiments for the IBMQ London and IBMQ Virgo
 
 * QAOA - Applies the QAOA Algorithm and experiments on SMC with QAOA, makes extensive use of code from the qiskit documentation 
 
-### Old Notebooks ### 
-These notebooks were used as scratchpads and are in an unclean state. They are provided for completeness. They may be found in the `'retired' directory.
+* Simple Measurement Bias - Some toy models for testing the SMC against measurement bias
 
-* hamming_weight_comparison - Experimenting with comparing the hamming weight with the error rate
+* SMC Unitary Testing - Testing SMC methods against arbitrary SU(2) rotations
+
+* Unitary Test - More testing SMC methods against SU(2) rotations
 
