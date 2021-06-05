@@ -23,8 +23,13 @@ These notebooks should be invoked using the `jupyter notebook` command.
 * seaborn          : 0.11.0
 * qinfer           : 1.0
 
+IBMQ Credentials are required for experiments that access those devices.
 
 ### Notebooks ###
+
+All notebooks are standalone and collect all data required before performing the associated experiments.
+
+Runtimes will vary from a few seconds to several weeks for the larger experiments.
 
 * Demonstration of Biased Measurement - Applies sequential X circuits to the IBMQ Armonk, London and Quito devices and prints results
 
