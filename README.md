@@ -1,5 +1,7 @@
 ## Bayesian Circuit Design for Measurement Error Mitigation ##
 
+These notebooks should be invoked using the `jupyter notebook` command.
+
 ### Requirements ###
 
 *Software*
@@ -31,8 +33,18 @@
 * Biased Noise - Notebook for constructing toy biased and correlated error channels
 * Correlated BV - Notebook for applying the toy biased and correlated error channels to BV circuits
 
+* BV - Notebook for the construction the Bernstein Vazarani Algorithm, largely taken from the IBMQ Qiskit Documentation
+
+* Melbourne Hamming Weight - Experiments on the IBMQ Melbourne using states of varying Hamming weight.
+
+* More RB - Some experiments involving randomised benchmarking with large circuit depths.
+
+* Multi Qubit Bias - Hamming weight experiments for the IBMQ London and IBMQ Virgo
+
+* QAOA - Applies the QAOA Algorithm and experiments on SMC with QAOA, makes extensive use of code from the qiskit documentation 
+
 ### Old Notebooks ### 
-These notebooks were used as scratchpads and are in an unclean state. They are provided for completeness. They may be found in the `retired' directory.
+These notebooks were used as scratchpads and are in an unclean state. They are provided for completeness. They may be found in the `'retired' directory.
 
 * hamming_weight_comparison - Experimenting with comparing the hamming weight with the error rate
 
